@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "mmu-direct-apps-df"
+		},
+		"AzureBatch1_accessKey": {
+			"value": ""
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureFunction1_functionKey": {
+			"value": ""
+		},
+		"U4DirectDbLS_connectionString": {
+			"value": ""
+		},
+		"mmuDirectDB_connectionString": {
+			"value": ""
+		},
+		"AzureBatch1_properties_typeProperties_accountName": {
+			"value": "directteststorage"
+		},
+		"AzureBatch1_properties_typeProperties_batchUri": {
+			"value": "https://batchaccount.region.batch.azure.com"
+		},
+		"U4DBLS_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/8bd8d988-52f9-4f70-8aac-ff4dc4080a10/resourcegroups/mmu-dev-hgtest/providers/Microsoft.DataFactory/factories/mmu-direct-app-df/integrationruntimes/IRUnit4ReplicaDB"
+		}
+	}
+}
