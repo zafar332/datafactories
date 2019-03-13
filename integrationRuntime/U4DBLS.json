@@ -1,0 +1,12 @@
+{
+	"name": "U4DBLS",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/8bd8d988-52f9-4f70-8aac-ff4dc4080a10/resourcegroups/mmu-dev-hgtest/providers/Microsoft.DataFactory/factories/mmu-direct-app-df/integrationruntimes/IRUnit4ReplicaDB",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}

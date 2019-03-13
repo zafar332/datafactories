@@ -1,0 +1,17 @@
+{
+	"name": "AzureBatch1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureBatch",
+		"typeProperties": {
+			"accountName": "directteststorage",
+			"batchUri": "https://batchaccount.region.batch.azure.com",
+			"poolName": "poolName",
+			"linkedServiceName": {
+				"referenceName": "AzureBlobStorage1",
+				"type": "LinkedServiceReference"
+			},
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIk1NVS1ESVJFQ1QtQVBQUy1ERl9iM2FiMTRiMC02YzhlLTRmNjMtYmFmMi0zZjU1YzQ3N2MyM2QiDQp9"
+		}
+	}
+}
